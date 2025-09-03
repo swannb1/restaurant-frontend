@@ -1,1 +1,38 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "Garamond";
+  src: url("./assets/fonts/CormorantGaramond-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./assets/fonts/Montserrat-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lora";
+  src: url("./assets/fonts/Lora-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --color-verdant_cream: oklch(0.861 0.0442 86.59);
+  --color-verdant_pumpkin: oklch(0.4681 0.1158 42.36);
+  --color-verdant_squash: oklch(0.5835 0.1051 69.62);
+  --color-verdant_soil: oklch(0.4981 0.0826 77.01);
+  --color-verdant_green: oklch(0.2975 0.0392 153.64);
+  --color-verdant_pepper: oklch(0.4118 0.1259 35.24);
+
+  --font-garamond: "Garamond";
+  --font-montserrat: "Montserrat";
+  --font-lora: "Lora";
+}
